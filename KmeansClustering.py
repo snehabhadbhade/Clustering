@@ -48,7 +48,7 @@ output_file("test.html")
 
 stemmer = nltk.SnowballStemmer("english")
 
-with open("What.txt","r") as f:
+with open("Shorttexts.txt","r") as f:
 	input_text = f.readlines()
 f.close()
 
